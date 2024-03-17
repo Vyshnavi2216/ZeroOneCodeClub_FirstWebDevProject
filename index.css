@@ -1,10 +1,10 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-.container {
+.one {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -12,39 +12,35 @@
     justify-content: center;
 }
 
-.card {
+.one-in {
     width: 20%;
-    display: flex;
-    flex-direction: column;
 }
 
-.card-one {
+.two {
+  
+}
+.two img {
     width: 100%;
 }
-.card-one img {
-    width: 100%;
-}
-
-.card-two {
-    width: 100%;
+.three {
     padding: 1rem;
-    
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-
-.card-two h1 {
-    font-size: 1.5rem;
+.three h1 {
+font-size: 1.5rem;
 }
-.card-two h2 {
+.three h2 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
     color: grey;
 }
-
-.card-two a {
+.three a { 
     text-decoration: none;
     background-color: black;
     color: white;
     padding: 5px 10px;
 }
-  
+
+.one-in:nth-child(2) {
+   margin: 0rem 1rem;
+}
